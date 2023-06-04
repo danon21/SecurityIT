@@ -48,4 +48,9 @@ namespace WebAPI
         [Column("dt_value")]
         public string Value { get; set; } = "";
     }
+
+    public class ValueData
+    {
+        public string val { get; set; } = "";
+    }
 }
