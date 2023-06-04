@@ -22,7 +22,7 @@ namespace WebAPI
         [Column("rgh_id")]
         public int Id { get; set; }
         [Column("rgh_name")]
-        public string Typename { get; set; } = "";
+        public string TypeRight { get; set; } = "";
 
         public List<User> Users { get; set; } = new();
         public List<UserRight> UserRights { get; set; } = new();
