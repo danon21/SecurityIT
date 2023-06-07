@@ -1,8 +1,8 @@
 <template>
   <div class="mainCmp">
     <DataTable :value="arr" showGridlines scrollable scroll-height="70vmin">
-      <Column field="id" header="Id" />
-      <Column field="value" header="Value" />
+      <Column field="id" header="Id" :style="{width: '25vmin'}" />
+      <Column field="value" header="Value" :style="{width: '25vmin'}" />
     </DataTable>
     <Button label="+" @click="visible = true" />
     <Dialog
