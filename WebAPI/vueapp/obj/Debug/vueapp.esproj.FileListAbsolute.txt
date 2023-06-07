@@ -1,0 +1,4 @@
+E:\Projects\rage mp\newtown-site\vueapp\obj\Debug\vueapp.esproj.SuggestedBindingRedirects.cache
+E:\Projects\rage mp\newtown-site\vueapp\obj\Debug\vueapp.esproj.CoreCompileInputs.cache
+C:\Users\danon\Desktop\WebAPI\vueapp\obj\Debug\vueapp.esproj.SuggestedBindingRedirects.cache
+C:\Users\danon\Desktop\WebAPI\vueapp\obj\Debug\vueapp.esproj.CoreCompileInputs.cache

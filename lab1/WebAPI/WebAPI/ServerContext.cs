@@ -8,7 +8,8 @@ namespace WebAPI
         public DbSet<User> Users { get; set; } = null!;
         public DbSet<Right> Rights { get; set; } = null!;
         public DbSet<Data> Datas { get; set; } = null!;
-        public AppServerContext(DbContextOptions<AppServerContext> options) : base(options) 
+        public AppServerContext(DbContextOptions<AppServerContext> 
+            options) : base(options) 
         {
             Database.EnsureCreated();
         }
