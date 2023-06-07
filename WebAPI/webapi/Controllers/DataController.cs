@@ -40,14 +40,14 @@ namespace WebAPI.Controllers
         }
 
         // POST api/<ValuesController>
-        [HttpPost]
-        public async Task<IActionResult> Post(string value)
+        [HttpPost("/data/write")]
+        public async Task<IActionResult> Post([FromBody]string valueTest)
         {
             try
             {
-                await _db.Datas.AddAsync(new Data { Value = value });
+                var newEntity = await _db.Datas.AddAsync(new Data { Value = valueTest });
                 await _db.SaveChangesAsync();
-                return Ok();
+                return Ok(newEntity.Entity);
             }
             catch
             {

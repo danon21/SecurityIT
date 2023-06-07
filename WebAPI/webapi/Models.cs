@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WebAPI
 {
@@ -43,6 +44,7 @@ namespace WebAPI
     [Table("data")]
     public class Data
     {
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Column("dt_id")]
         public int Id { get; set; }
         [Column("dt_value")]
