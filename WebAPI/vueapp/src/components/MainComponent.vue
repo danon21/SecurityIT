@@ -71,10 +71,16 @@ export default defineComponent({
     methods: {
         fetchData() {
             fetch('/data/read')
-                .then(r => r.json())
+                .then(r => 
+                    r.json()
+                )
                 .then(json => {
+                    console.log(json)
                     this.arr = json;
                     return;
+                })
+                .catch(error => {
+                    console.error('Ошибка нового значения:', error);
                 });
         },
         addNewValue(){
