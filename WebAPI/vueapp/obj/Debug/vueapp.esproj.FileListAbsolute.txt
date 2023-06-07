@@ -2,3 +2,5 @@ E:\Projects\rage mp\newtown-site\vueapp\obj\Debug\vueapp.esproj.SuggestedBinding
 E:\Projects\rage mp\newtown-site\vueapp\obj\Debug\vueapp.esproj.CoreCompileInputs.cache
 C:\Users\danon\Desktop\WebAPI\vueapp\obj\Debug\vueapp.esproj.SuggestedBindingRedirects.cache
 C:\Users\danon\Desktop\WebAPI\vueapp\obj\Debug\vueapp.esproj.CoreCompileInputs.cache
+D:\study\3_cours\tr2\securityIT\SecurityIT\WebAPI\vueapp\obj\Debug\vueapp.esproj.SuggestedBindingRedirects.cache
+D:\study\3_cours\tr2\securityIT\SecurityIT\WebAPI\vueapp\obj\Debug\vueapp.esproj.CoreCompileInputs.cache
