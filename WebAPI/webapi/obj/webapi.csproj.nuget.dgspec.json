@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\danon\\Desktop\\WebAPI\\webapi\\webapi.csproj": {}
+    "D:\\study\\3_cours\\tr2\\securityIT\\SecurityIT\\WebAPI\\webapi\\webapi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\danon\\Desktop\\WebAPI\\webapi\\webapi.csproj": {
+    "D:\\study\\3_cours\\tr2\\securityIT\\SecurityIT\\WebAPI\\webapi\\webapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\danon\\Desktop\\WebAPI\\webapi\\webapi.csproj",
+        "projectUniqueName": "D:\\study\\3_cours\\tr2\\securityIT\\SecurityIT\\WebAPI\\webapi\\webapi.csproj",
         "projectName": "webapi",
-        "projectPath": "C:\\Users\\danon\\Desktop\\WebAPI\\webapi\\webapi.csproj",
+        "projectPath": "D:\\study\\3_cours\\tr2\\securityIT\\SecurityIT\\WebAPI\\webapi\\webapi.csproj",
         "packagesPath": "C:\\Users\\danon\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\danon\\Desktop\\WebAPI\\webapi\\obj\\",
+        "outputPath": "D:\\study\\3_cours\\tr2\\securityIT\\SecurityIT\\WebAPI\\webapi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -47,6 +47,14 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.4, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
